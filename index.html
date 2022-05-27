@@ -1,91 +1,94 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <!--Head is the part of page which tells us how a webpage should be handled-->
-  <head>
-    <meta charset="utf-8" />
-    <title>💛 Sathvik personal webpage</title>
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
+<!--Head is the part of page which tells us how a webpage should be handled-->
 
-  <!--We use inline css by using style attribute with background to change this
+<head>
+  <meta charset="utf-8" />
+  <title>💛 Sathvik personal webpage</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<!--We use inline css by using style attribute with background to change this
   There are different ways to specify color-->
-  <body>
-    <table cellspacing="30">
+
+<body>
+  <table cellspacing="30">
+    <tr>
+      <td>
+        <!--img tag is used for including image and we use source attribute for image location(online or local) and alt attribute for displaying text when image is not rendered-->
+        <img src="images/profile_pic-modified.png" alt="profile pic" />
+      </td>
+      <td>
+        <!-- First we give a heading using the h1 tag -->
+        <h1>Sathvik's webpage</h1>
+        <!-- Now we add description using p1 tab(used to create paragraph) -->
+        <p>
+          <em>Aerospace Engineering student</em>
+          <strong>This is must complete page</strong>
+          <!-- em tag is used to italiseze the content
+            and storng tag is used for making the content bold-->
+        </p>
+        <p>I am doing this course for placement</p>
+      </td>
+    </tr>
+  </table>
+  <hr />
+  <h3>lists</h3>
+  <h3>Idiot friends</h3>
+  <!--We use ul tag for unodered list-->
+  <ul>
+    <li>sheshank</li>
+    <li>victor</li>
+    <li>deepak</li>
+    <li>ajay</li>
+    <li>jeevan</li>
+    <li>shreeja</li>
+    <li>sniggu</li>
+  </ul>
+  <hr />
+  <h3>My Work Expirence</h3>
+  <!--We use tabel tag for creating tabel-->
+  <table cellspacing="10">
+    <!--thead tag is for creating head of tabel-->
+    <thead>
+      <!--tr is tag for tabel row-->
       <tr>
-        <td>
-          <!--img tag is used for including image and we use source attribute for image location(online or local) and alt attribute for displaying text when image is not rendered-->
-          <img src="images/profile_pic-modified.png" alt="profile pic" />
-        </td>
-        <td>
-          <!-- First we give a heading using the h1 tag -->
-          <h1>Sathvik's webpage</h1>
-          <!-- Now we add description using p1 tab(used to create paragraph) -->
-          <p>
-            <em>Aerospace Engineering student</em>
-            <strong>This is must complete page</strong>
-            <!-- em tag is used to italiseze the content
-          and storng tag is used for making the content bold-->
-          </p>
-          <p>I am doing this course for placement</p>
-        </td>
+        <!--th is tabel header cell element-->
+        <th>Date</th>
+        <th>Work</th>
       </tr>
-    </table>
-    <hr />
-    <h3>lists</h3>
-    <h3>Idiot friends</h3>
-    <!--We use ul tag for unodered list-->
-    <ul>
-      <li>sheshank</li>
-      <li>victor</li>
-      <li>deepak</li>
-      <li>ajay</li>
-      <li>jeevan</li>
-      <li>shreeja</li>
-      <li>sniggu</li>
-    </ul>
-    <hr />
-    <h3>My Work Expirence</h3>
-    <!--We use tabel tag for creating tabel-->
-    <table cellspacing="10">
-      <!--thead tag is for creating head of tabel-->
-      <thead>
-        <!--tr is tag for tabel row-->
-        <tr>
-          <!--th is tabel header cell element-->
-          <th>Date</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <!--tbody is body of tabel-->
-      <tbody>
-        <!--tr is for tabel row of tabel-->
-        <tr>
-          <!-- td is for tabel data of element-->
-          <td>2020-2021</td>
-          <td>Head of Aerofest vertical, SHAASTRA</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <h3>Skills</h3>
-    <table cellspacing="10">
+    </thead>
+    <!--tbody is body of tabel-->
+    <tbody>
+      <!--tr is for tabel row of tabel-->
       <tr>
-        <td>python</td>
-        <td>★★☆☆☆</td>
+        <!-- td is for tabel data of element-->
+        <td>2020-2021</td>
+        <td>Head of Aerofest vertical, SHAASTRA</td>
       </tr>
-      <tr>
-        <td>html</td>
-        <td>★★☆☆☆</td>
-      </tr>
-      <tr>
-        <td>C++</td>
-        <td>★☆☆☆☆</td>
-      </tr>
-    </table>
-    <hr />
-    <!--WE use a tag for hyper text of links
+    </tbody>
+  </table>
+  <hr />
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tr>
+      <td>python</td>
+      <td>⭐️⭐️</td>
+    </tr>
+    <tr>
+      <td>html</td>
+      <td>⭐️⭐️</td>
+    </tr>
+    <tr>
+      <td>C++</td>
+      <td>⭐️</td>
+    </tr>
+  </table>
+  <hr />
+  <!--WE use a tag for hyper text of links
   we link them to files locally or for webpages online-->
-    <h3><a href="hobbies.html">My hobbies</a></h3>
-    <h3><a href="contact.html">Contact details</a></h3>
-  </body>
+  <h3><a href="hobbies.html">My hobbies</a></h3>
+  <h3><a href="contact.html">Contact details</a></h3>
+</body>
+
 </html>
