@@ -1,10 +1,19 @@
-body{
-    background-color: #DFF6F0;
-  }
-  hr{
-    border: 6px dotted lightgray;
-    border-style: none none dotted; 
-    border-width: 6.5px;
-    height: 2px;
-    width: 6%;
-  }
+body {
+  background-color: #DFF6F0;
+}
+
+hr {
+  border: 6px dotted lightgray;
+  border-style: none none dotted;
+  border-width: 6.5px;
+  height: 2px;
+  width: 6%;
+}
+
+h1 {
+  background-color: #66BFBF;
+}
+
+h3 {
+  background-color: #66BFBF;
+}
